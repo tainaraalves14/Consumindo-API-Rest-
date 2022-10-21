@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Exemplo - Consumindo API REST</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>Exemplo Consumindo uma API REST</h1>
+            <p>
+                O objetivo desse exemplo é consumir os dados provenientes de uma
+                API REST e exibir esses dados em uma página com HTML dinâmico 
+                gerado a partir do JavaScript.
+            </p>
+            <hr>
+
+            <h3>Dados da API</h3>
+            <p>
+                <button id="btnObterDados" type="button" onclick="carregarDados();">
+                    Obter Dados
+                </button>
+            </p>
+            <div id="div-erro">...</div>
+            <div id="dados">
+                <div id="curve_chart" class="area-grafico"></div>
+                <div id="piechart" class="area-grafico"></div>
+            </div>        
+        </div>        
+    </body>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/scripts.js"></script>
+</html>
